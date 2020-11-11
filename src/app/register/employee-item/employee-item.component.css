@@ -1,0 +1,27 @@
+.right-content {
+    padding: 20px;
+}
+
+.row {
+    padding: 35px;
+}
+
+table {
+    width: 94%;
+    margin-left: 35px;
+    border-collapse: collapse;
+}
+
+.r {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 5px;
+    text-align: left;
+}
+
+input.ng-invalid.ng-touched{
+    border: 1px solid red;
+}

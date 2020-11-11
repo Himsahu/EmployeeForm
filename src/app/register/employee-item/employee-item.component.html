@@ -1,0 +1,19 @@
+<a
+  style="cursor: pointer;"
+  class="list-group-item clearfix">
+  <div class="pull-left">
+    <p class="list-group-item-heading">Name: {{ employee.name }}</p>
+    <p class="list-group-item-heading">Age: {{ employee.age }}</p>
+    <p class="list-group-item-heading">Gender: {{ employee.gender }}</p>
+    <p class="list-group-item-heading">Role: {{ employee.role }}</p>
+    <p class="list-group-item-heading">Email: {{ employee.email }}</p>
+    <p class="list-group-item-heading">Mobile: {{ employee.mobile }}</p>
+    <button (click)="employeeDetails(employee.id)" class="btn btn-info" style="margin-left: 10px">Details</button>
+  </div>
+  <div class="pull-right">
+    <button
+        type="button"
+        class="btn btn-danger"
+        (click)="onDeleteEmployee()">X</button>
+  </div>
+</a>
